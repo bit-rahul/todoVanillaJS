@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Material+Icons');
 
 body {
-    background-color  : #a39bd2;
+    background-color  : #958ad4;
     min-height        : 70vh;
     padding           : 1rem;
     -webkit-box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
     -webkit-box-align : center;
     -ms-flex-align    : center;
     align-items       : center;
-    color             : hsl(198, 1%, 29%);
+    color             : hsl(200, 2%, 25%);
     font-family       : 'Gochi Hand', cursive, sans-serif;
     text-align        : center;
     font-size         : 130%;
@@ -33,7 +33,7 @@ body {
     min-width         : 250px;
     min-height        : 500px;
     max-width         : 500px;
-    background        : #f1f5f8;
+    background        : #ecf3f8;
     background-image  : -o-radial-gradient(#bfc0c1 7.2%, transparent 0);
     background-image  : radial-gradient(#bfc0c1 7.2%, transparent 0);
     background-size   : 25px 25px;
@@ -68,7 +68,7 @@ body {
     transform        : rotate(2deg);
     padding          : 0.2rem 1.2rem;
     border-radius    : 20% 5% 20% 5% / 5% 20% 25% 20%;
-    background-color : hsla(166, 100%, 50%, 0.7);
+    background-color : #00FFC2;
     font-size        : 1.5rem;
 }
 
@@ -100,7 +100,7 @@ h3 {
 .button {
     background: none;
     border    : 0;
-    color     : #888;
+    color     : #707070;
     float     : right;
     width     : 25px;
     margin    : 7px 0 0 0;
@@ -109,14 +109,14 @@ h3 {
 }
 
 .button:hover {
-    color: #333;
+    color: #252525;
 }
 
 .section__title {
-    color         : #333;
+    color         : #252525;
     font-weight   : 700;
     font-size     : 15px;
-    border-bottom : 2px solid #333;
+    border-bottom : 2px solid #252525;
     padding       : 20px 0 10px;
     margin        : 0;
     text-transform: uppercase;
@@ -137,7 +137,7 @@ h3 {
 .task {
     overflow     : hidden;
     padding      : 15px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgb(241, 240, 240);
 }
 
 .task__checkbox {
@@ -164,7 +164,7 @@ h3 {
 }
 
 .task__input--new:focus {
-    border-color: #BDBDBD;
+    border-color: hsl(0, 0%, 66%);
 }
 
 .text-input {
@@ -177,11 +177,11 @@ h3 {
     background   : #FEFEFE;
     border-radius: 6px;
     font-family  : Lato, sans-serif;
-    color        : #888;
+    color        : #707070;
 }
 
 .text-input:focus {
-    color: #333;
+    color: #252525;
 }
 
 .todo__title-wrap--todo {
@@ -197,7 +197,7 @@ h3 {
 }
 
 .task__delete:hover {
-    color: #e53935;
+    color: tomato;
 }
 
 .task__input {
@@ -211,11 +211,11 @@ h3 {
     background   : #FEFEFE;
     border-radius: 6px;
     font-family  : Lato, sans-serif;
-    color        : #888;
+    color        : #707070;
 }
 
 .task__input:focus {
-    border-color: #BDBDBD;
+    border-color: hsl(0, 0%, 66%);
 }
 
 .save {
@@ -229,7 +229,7 @@ h3 {
     top                : -46px;
     padding            : 12px;
     border-radius      : 5px;
-    background-color   : #e53935;
+    background-color   : tomato;
     box-shadow         : 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
     transition-property: color, background-color;
     transition         : .3s ease-in-out;
@@ -238,7 +238,7 @@ h3 {
 .save:hover,
 .save:focus,
 .save:active {
-    background-color: #9C27B0;
+    background-color: #27AF7D;
     color           : #FEFEFE;
 }
 
@@ -259,7 +259,7 @@ h3 {
     height       : 100px;
     background   : #FEFEFE;
     border-radius: 5px;
-    border       : 3px solid #e53935;
+    border       : 3px solid tomato;
 }
 
 .alert__button {
@@ -270,7 +270,7 @@ h3 {
 
 .alert__button--yes:hover {
     color           : #FEFEFE;
-    background-color: #e53935;
+    background-color: tomato;
 }
 
 .alert__button--no {
@@ -280,7 +280,7 @@ h3 {
 
 .alert__button--no:hover {
     color           : #FEFEFE;
-    background-color: #2CC990;
+    background-color: #27af7d;
 }
 
 .is-hidden {
