@@ -180,6 +180,7 @@ const whatToDo = (e) => {
 
 todoList.addEventListener('click', whatToDo);
 doneList.addEventListener('click', whatToDo);
+
 // Accordion
 todoHeader.addEventListener('click', () => todoList.classList.toggle('is-hidden'));
 doneHeader.addEventListener('click', () => doneList.classList.toggle('is-hidden'));
